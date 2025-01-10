@@ -1,0 +1,133 @@
+.work-flex {
+  grid-template-columns: repeat(2, 350px);
+  column-gap: 3rem;
+  justify-content: center;
+}
+
+/* .work-flex-img {
+  width: 350px;
+  height: 220px;
+  overflow: hidden;
+  position: relative;
+  object-fit: contain;
+} */
+
+.work-flex-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.work-flex-img img {
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.work-flex-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.react {
+  color: #64ffda;
+}
+
+.work-project-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.work-project-text {
+  text-align: center;
+}
+
+.work-project-title {
+  color: var(--title-color);
+}
+
+.work-github {
+  font-size: 1rem;
+  color: var(--title-color);
+  border: 1px solid #64ffda;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.work-overview {
+  background-color: #181c3b42;
+  border: 1px solid #64ffda;
+  border-radius: 0.7rem;
+  margin-top: 20px;
+}
+
+.work-project-stack {
+  display: flex;
+  gap: 10px;
+}
+
+.more-works {
+  text-align: center;
+  padding-top: 20px;
+  color: #64ffda;
+}
+
+/* large device */
+@media screen and (max-width: 992px) {
+  .work-flex {
+    grid-template-columns: repeat(2, 350px);
+    column-gap: 1rem;
+    justify-content: center;
+  }
+
+  .more-works {
+    font-size: 20px;
+  }
+
+  /* .work-flex-img {
+    width: 300px;
+    height: 300px;
+  } */
+}
+
+/* medium device */
+@media screen and (max-width: 768px) {
+  .work-flex {
+    display: grid;
+    row-gap: 1rem;
+    grid-template-columns: 300px;
+  }
+
+  .work-container {
+    padding: 0 4rem;
+  }
+  .more-works {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .work-container {
+    padding: 0;
+  }
+
+  .more-works {
+    font-size: 16px;
+  }
+}
+
+/* small device */
+@media screen and (max-width: 350px) {
+}
+@media screen and (max-width: 280px) {
+  .work-project-text {
+    text-align: center;
+    font-size: 10px;
+    padding: 20px;
+  }
+}
