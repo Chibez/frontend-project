@@ -1,5 +1,4 @@
 Authour
-Caleb Odobi
 Ezeugwu Ifeanyi
 
 I build things for the web
