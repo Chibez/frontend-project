@@ -68,7 +68,7 @@ const Contact = () => {
               <span className="contact-card-data">odobicaleb</span>
 
               <a
-                href="https://www.twitter.com/odobicaleb"
+                href="https://chatgpt.com/"
                 rel="noopener noreferrer"
                 className="contact-button"
                 target="_blank"
