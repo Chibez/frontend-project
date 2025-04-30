@@ -32,7 +32,7 @@ const Contact = () => {
 
               <h3 className="contact-card-title">Gmail</h3>
               <span className="contact-card-data">
-                odobicaleb@gmail.com
+                IfeanyiEzeugwu@gmail.com
               </span>
 
               <a
@@ -65,7 +65,7 @@ const Contact = () => {
               <i className="bx bxl-twitter contact-card-icon"></i>
 
               <h3 className="contact-card-title">X fomaerly Twitter</h3>
-              <span className="contact-card-data">odobicaleb</span>
+              <span className="contact-card-data">IfeanyiEzeugwu</span>
 
               <a
                 href="https://chatgpt.com/"
